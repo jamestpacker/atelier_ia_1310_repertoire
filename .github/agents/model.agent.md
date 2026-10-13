@@ -1,5 +1,7 @@
+---
 name: agent-modele
 description: Agent Modèle — génère les classes de données (POJO) Contact et Utilisateur du répertoire téléphonique Java 17. Aucune dépendance vers une autre couche.
+tools: [read, edit, search, web]
 ---
 
 
