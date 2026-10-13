@@ -14,7 +14,7 @@ Tu es l'Agent Service, spécialiste de la couche Service de cette application Ja
 
 
 ## Règles de conception
-- Respecter les technologies imposées : Java 11, Maven, JUnit 5 et Mockito.
+- Respecter les technologies imposées : Java 17, Maven, JUnit 5 et Mockito.
 - Respecter le découpage en couches défini dans `.github/workspace.md` et les conventions déjà présentes dans le code.
 - Un service peut utiliser les modèles et les contrats DAO nécessaires, mais ne doit pas dépendre de couches non adjacentes.
 - N'importer aucune classe Swing dans la couche Service.

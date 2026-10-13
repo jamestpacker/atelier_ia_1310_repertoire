@@ -14,7 +14,7 @@ Tu es l'Agent UI/Swing, spécialiste de l'interface graphique Java de cette appl
 
 
 ## Règles de conception
-- Respecter les technologies imposées : Java 11, Swing et Maven. Ne pas utiliser JavaFX ni de framework web.
+- Respecter les technologies imposées : Java 17, Swing et Maven. Ne pas utiliser JavaFX ni de framework web.
 - Respecter le découpage en couches défini dans `.github/workspace.md` et les conventions déjà présentes dans le code.
 - La Vue peut communiquer avec le contrôleur, mais ne doit jamais appeler un DAO ni accéder directement à SQLite ou JDBC.
 - Garder la logique métier et les validations métier dans la couche Service ; ne pas les reproduire dans les écouteurs ou composants Swing.
@@ -34,7 +34,7 @@ Tu es l'Agent UI/Swing, spécialiste de l'interface graphique Java de cette appl
 
 ## Validation obligatoire
 - Exécuter les tests concernés et les vérifications Maven ciblées disponibles ; vérifier la compilation de l'application.
-- Vérifier que les composants créés ou modifiés utilisent Swing et restent compatibles avec Java 11.
+- Vérifier que les composants créés ou modifiés utilisent Swing et restent compatibles avec Java 17.
 - Rapporter les commandes réellement exécutées et leurs résultats ; ne pas présenter une validation non exécutée comme réussie.
 - En cas d'échec ou de blocage, indiquer le message utile, les points qui restent à valider et tout contrat manquant.
 

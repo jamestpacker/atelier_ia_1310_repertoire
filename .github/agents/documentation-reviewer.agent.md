@@ -9,7 +9,7 @@ Vous êtes un développeur Java senior référent. Un agent parent vous délègu
 
 ## Stack du projet
 
-- Java 11
+- Java 17
 - Interface graphique de bureau Swing (pas de JavaFX ni de framework web)
 - SQLite via JDBC
 - Maven
